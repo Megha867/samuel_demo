@@ -17,7 +17,6 @@ public class FirstController {
 	@GetMapping("/save")
 	public Login saveForm() {
 //		System.out.println("email="+login.getEmail());
-		
 		Login l = new Login();
 		l.setEmail("megha");
 		l.setPassword("meghaq");
